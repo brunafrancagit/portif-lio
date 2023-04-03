@@ -1,0 +1,256 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    color: #000;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+header{
+    background-color: #9a043d;
+    padding: 25px 200px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 20px solid #000;
+}
+
+.foto1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+}
+a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+.primeira {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.segunda {
+    max-width: 600px;
+    max-height: 200px;
+}
+a:hover {
+    color: #a5a5a5;
+    transition: 0.9ms;
+}
+
+section {
+    margin: 0;
+    padding: 150px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home {
+    width: 1000px;
+    height: 400px;
+    display: block;
+    background-color: #fff;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin: 0;
+    padding: 80px 160px;
+}
+
+p {
+    text-align: justify;
+    line-height: 30px;
+    margin: 0;
+}
+
+.habilidades {
+    margin: 8%;
+    padding: 80px 160px;
+    width: 1000px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.hatopo {
+    margin-inline: 40%;
+    padding: 0;
+}
+
+.curso1 {
+    padding: 0;
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.curso1 p {
+    text-align: center;
+}
+
+.curso2 {
+    padding: 0;
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.curso2 p {
+    text-align: center;
+}
+
+.curso3 {
+    padding: 0;
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.curso3 p {
+    text-align: center;
+}
+
+.curso4 {
+    padding: 0;
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.curso4 p {
+    text-align: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projtopo {
+    margin: 7%;
+    margin-top: 0;
+    padding: 30px 160px;
+    width: 1000px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.coluna1 {
+    background-image: url 'img/breve1.png';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    padding: 50px 100px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.coluna1 img {
+    width: 160px;
+    height: 120px;
+}
+
+.coluna1 p {
+    color: #868686;
+    margin-top: 35px;
+}
+
+.coluna2 {
+    background-image: url 'img/breve1.png';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    padding: 50px 100px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.coluna2 img {
+    width: 160px;
+    height: 120px;
+}
+
+.coluna2 p {
+    color: #868686;
+    margin-top: 35px;
+}
+
+.coluna3 {
+    background-image: url 'img/breve1.png';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    padding: 50px 100px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.coluna3 img {
+    width: 160px;
+    height: 120px;
+}
+
+.coluna3 p {
+    color: #868686;
+    margin-top: 35px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 40px 300px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+}
